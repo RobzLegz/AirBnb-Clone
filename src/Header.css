@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: #fff;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 80px;
+}
+.logo {
+  object-fit: contain;
+  height: 40px;
+  margin-left: 20px;
+}
+.headerCenter {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: fit-content;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 999px;
+  justify-content: center;
+  height: fit-content;
+}
+.headerCenter > input {
+  border: none;
+  width: 300px;
+  outline: none;
+  padding: 5px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 80px;
+  width: 12vw;
+}
