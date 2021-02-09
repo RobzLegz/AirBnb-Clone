@@ -7,10 +7,10 @@
 .bannerInfo {
   background-color: #000;
   color: #fff;
-  height: 100%;
+  height: calc(100% - 40px);
   width: 30%;
   max-width: 300px;
-  padding: 18vh 50px 40px 50px;
+  padding: 15vh 50px 40px 50px;
 }
 .bannerInfo > button {
   background-color: #ff7779;
@@ -26,4 +26,15 @@
 .bannerInfo > button:hover {
   background-color: #fff;
   color: #ff7779;
+}
+.bannersSearchButton {
+  background-color: #fff !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  height: 40px !important;
+}
+.bannerSearch {
+  display: flex;
+  flex-direction: column;
 }
