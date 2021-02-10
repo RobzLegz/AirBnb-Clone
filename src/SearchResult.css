@@ -1,0 +1,60 @@
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+}
+.searchResult:hover {
+  opacity: 0.8;
+}
+.searchResult > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.searchResultInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 0 0 20px;
+}
+.searchHeart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+.searchResultInfoTop {
+  width: 40vw;
+}
+.searchResultInfoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+.searchResultInfoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #666;
+}
+.searchResultInfoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.searchResultInfoStars {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.searchResultInfoStars > p > strong {
+  color: #333;
+}
+.searchResultPrice > p {
+  text-align: right;
+}
+.searchResultPrice {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
