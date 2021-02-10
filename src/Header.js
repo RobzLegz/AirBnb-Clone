@@ -8,7 +8,7 @@ import { Avatar } from '@material-ui/core';
 const Header = () => {
     return (
         <div className="header">
-            <img className="logo" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c513.png" alt="logo"/>
+            <img className="logo" src="https://lh3.googleusercontent.com/proxy/8TFn_fPd39I3et-xIQhCVTb8MWWqEyHIta42BI9NtTbWYO6y9nSipMPUDH5W-HwYSs6dsy1a3BYbkrHuUggQTFMXLNT4mrGgHo7mEmMok531biBb9KQ" alt="logo"/>
             <div className="headerCenter">
                 <input type="text"/>
                 <SearchIcon />
