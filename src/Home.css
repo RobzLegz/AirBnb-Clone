@@ -1,0 +1,10 @@
+.homeSection {
+  display: flex;
+  padding: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+.homeHeading {
+  margin-top: 40px;
+  margin-bottom: -10px;
+}
