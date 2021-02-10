@@ -7,7 +7,8 @@
   cursor: pointer;
 }
 .searchResult:hover {
-  opacity: 0.8;
+  opacity: 0.9;
+  background-color: #fcf5f5;
 }
 .searchResult > img {
   height: 200px;
@@ -25,6 +26,13 @@
   position: absolute;
   top: 20px;
   right: 40px;
+  cursor: pointer;
+}
+.likedHeart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #f54346;
 }
 .searchResultInfoTop {
   width: 40vw;

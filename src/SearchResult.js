@@ -1,12 +1,16 @@
-import { FavoriteBorder, Star } from '@material-ui/icons';
-import React from 'react';
+import { Star } from '@material-ui/icons';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import React, { useState } from 'react';
 import "./SearchResult.css";
 
 const SearchResult = ({image, location, title, description, rating, price, total}) => {
+
+    const [heartState, setHeartState] = useState("searchHeart")
+
     return (
         <div className="searchResult">
             <img src={image} alt={title}/>
-            <FavoriteBorder className="searchHeart" />
+            <FavoriteIcon onClick={() => setHeartState("likedHeart")} className={heartState} />
             <div className="searchResultInfo">
                 <div className="searchResultInfoTop">
                     <p>{location}</p>
