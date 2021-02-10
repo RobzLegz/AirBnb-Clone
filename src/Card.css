@@ -1,7 +1,7 @@
 .biggerCard {
   width: 400px;
   height: 350px;
-  object-fit: cover;
+  cursor: pointer;
 }
 .biggerCard > img {
   width: 100%;
@@ -43,4 +43,11 @@
 }
 .hiddenPrice {
   display: none;
+}
+.aboutTitle {
+  color: #555;
+  font-size: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  font-weight: 400;
 }
