@@ -21,7 +21,7 @@ const SearchResult = ({image, location, title, description, rating, price, total
                     </div>
                     <div className="searchResultPrice">
                         <h2>{price}€/night</h2>
-                        <p>{total}€</p>
+                        <p>{total}€ total</p>
                     </div>
                 </div>
             </div>

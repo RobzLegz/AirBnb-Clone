@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 .searchResultInfoStars {
-  color: red;
+  color: #f54346;
   display: flex;
   align-items: center;
 }
