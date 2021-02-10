@@ -1,10 +1,15 @@
 .homeSection {
   display: flex;
   padding: 30px;
-  width: 100%;
+  width: 70%;
   justify-content: space-between;
+  align-items: center;
+  margin: 10px auto 50px auto;
+}
+.smallerHomeSection {
+  width: 90%;
 }
 .homeHeading {
-  margin-top: 40px;
+  margin-top: 50px;
   margin-bottom: -10px;
 }

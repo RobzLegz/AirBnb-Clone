@@ -8,7 +8,7 @@ const Card = ({source, title, description, price}) => {
             <div className="cardInfo">
                 <h2>{title}</h2>
                 <h4>{description}</h4>
-                <h3>{price}</h3>
+                {price && <h3>{price}€/night</h3>}
             </div>
         </div>
     )

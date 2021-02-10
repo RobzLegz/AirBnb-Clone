@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home">
             <Banner />
             <h1 className="homeHeading">Live anywhere</h1>
-            <div className="homeSection">
+            <div className="homeSection smallerHomeSection">
                 <Card
                     source="https://a0.muscache.com/im/pictures/a0316ecb-e49b-4b3a-b6b6-c2876b820e8c.jpg?im_w=480"
                     title="Entire homes"
@@ -32,9 +32,10 @@ const Home = () => {
             </div>
             <div className="homeSection">
                 <Card
-                    source="https://a0.muscache.com/im/pictures/2c34782d-bd8e-48c3-bdf1-335eb9118b22.jpg?aki_policy=xx_large"
-                    title="Designer Studio Apartment in Central London"
-                    price={90}
+                    source="https://a0.muscache.com/im/pictures/df309e34-3fd6-4a59-9cf8-135f5beab0c1.jpg?im_w=1200"
+                    title="Studio | Greenhouse Apartments | 200m from sea"
+                    price={45}
+                    description="A beautiful and modern private-entrance studio apartment with an outdoor patio awaits for you right at the magical seaside in Dubulti - the heart and soul of Jurmala."
                 />
                 <Card
                     source="https://a0.muscache.com/im/pictures/14d28ae6-67ea-47de-af49-552aacd17f3b.jpg?im_w=720"
