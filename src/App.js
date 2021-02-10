@@ -10,12 +10,12 @@ function App() {
     <div className="app">
       <BrowserRouter>
         <Header />
-        <Switch>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="/search" exact>
+        <Switch>          
+          <Route path="/search">
             <SearchPage />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
         <Footer />
